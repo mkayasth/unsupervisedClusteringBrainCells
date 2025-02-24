@@ -2,7 +2,7 @@ library(Seurat)
 library(BPCells)
 library(ggplot2)
 # needs to be set for large dataset analysis
-options(future.globals.maxSize = 6 * 1024^3) # setting max to 4 GB.
+options(future.globals.maxSize = 6 * 1024^3) # setting max to 6 GB.
 
 # We already have an on-disk representation of our dataset.
 
